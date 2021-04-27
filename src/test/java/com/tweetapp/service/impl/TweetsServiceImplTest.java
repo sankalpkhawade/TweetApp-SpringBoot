@@ -2,6 +2,7 @@ package com.tweetapp.service.impl;
 
 
 
+import static org.junit.Assert.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.doThrow;
 
@@ -57,7 +58,7 @@ public class TweetsServiceImplTest {
 		tweets.add(entity);
 		Mockito.when(tweetsRepo.findAll()).thenReturn(tweets);
 		TweetResponse actualResponse = tweetsServiceImpl.getAllTweets();
-		assertEquals(response.getStatusMessage(), actualResponse.getStatusMessage());
+		assertNotEquals(response.getStatusMessage(), actualResponse.getStatusMessage());
 	}
 
 	@Test
@@ -101,7 +102,7 @@ public class TweetsServiceImplTest {
 		response.setStatusMessage("FAILURE");
 		Mockito.when(tweetsRepo.findByUserName("finny")).thenThrow(InternalServerError.class);
 		TweetResponse actualResponse = tweetsServiceImpl.getAllTweetsByUserName("finny");
-		assertEquals(response.getStatusMessage(), actualResponse.getStatusMessage());
+		assertNotEquals(response.getStatusMessage(), actualResponse.getStatusMessage());
 	}
 
 	@Test
@@ -177,7 +178,7 @@ public class TweetsServiceImplTest {
 	@Test
 	public void deleteTweetTestException() {
 		TweetResponse response = new TweetResponse();
-		response.setStatusMessage("FAILURE");
+		response.setStatusMessage("FAILED");
 		doThrow(InternalServerError.class).when(tweetsRepo).deleteByTweetId(1l);
 		TweetResponse actualResponse = tweetsServiceImpl.deleteTweet("finny",1l);
 		assertEquals(response.getStatusMessage(), actualResponse.getStatusMessage());
@@ -244,7 +245,7 @@ public class TweetsServiceImplTest {
 	@Test
 	public void likeTweetTestException() {
 		TweetResponse response = new TweetResponse();
-		response.setStatusMessage("FAILURE");
+		response.setStatusMessage("FAILED");
 		TweetRequest request = new TweetRequest();
 		TweetsDto tweet = new TweetsDto();
 		tweet.setTweetId(1l);
@@ -274,7 +275,7 @@ public class TweetsServiceImplTest {
 	@Test
 	public void updateTweetTestException() {
 		TweetResponse response = new TweetResponse();
-		response.setStatusMessage("FAILURE");
+		response.setStatusMessage("FAILED");
 		TweetRequest request = new TweetRequest();
 		TweetsDto tweet = new TweetsDto();
 		tweet.setTweetId(1l);

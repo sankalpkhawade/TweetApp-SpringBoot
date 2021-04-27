@@ -1099,3 +1099,23 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2021-04-27 00:35:56,855 INFO com.tweetapp.service.impl.TweetsServiceImplTest [main] Starting TweetsServiceImplTest using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 11224 (started by User in C:\Users\User\Downloads\TweetApp\TweetApp)
 2021-04-27 00:35:56,855 INFO com.tweetapp.service.impl.TweetsServiceImplTest [main] The following profiles are active: nonprod
 2021-04-27 00:35:58,347 INFO com.tweetapp.service.impl.TweetsServiceImplTest [main] Started TweetsServiceImplTest in 1.666 seconds (JVM running for 12.396)
+2021-04-27 08:59:45,898 INFO com.tweetapp.controller.TweetsControllerTest [main] Starting TweetsControllerTest using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 13992 (started by User in C:\Users\User\Downloads\TweetApp\TweetApp)
+2021-04-27 08:59:45,904 INFO com.tweetapp.controller.TweetsControllerTest [main] The following profiles are active: nonprod
+2021-04-27 08:59:51,714 INFO com.tweetapp.controller.TweetsControllerTest [main] Started TweetsControllerTest in 7.19 seconds (JVM running for 9.696)
+2021-04-27 08:59:52,091 INFO com.tweetapp.controller.UsersControllerTest [main] Starting UsersControllerTest using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 13992 (started by User in C:\Users\User\Downloads\TweetApp\TweetApp)
+2021-04-27 08:59:52,091 INFO com.tweetapp.controller.UsersControllerTest [main] The following profiles are active: nonprod
+2021-04-27 08:59:54,106 INFO com.tweetapp.controller.UsersControllerTest [main] Started UsersControllerTest in 2.166 seconds (JVM running for 12.089)
+2021-04-27 08:59:54,328 INFO com.tweetapp.service.impl.TweetsServiceImplTest [main] Starting TweetsServiceImplTest using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 13992 (started by User in C:\Users\User\Downloads\TweetApp\TweetApp)
+2021-04-27 08:59:54,329 INFO com.tweetapp.service.impl.TweetsServiceImplTest [main] The following profiles are active: nonprod
+2021-04-27 08:59:55,971 INFO com.tweetapp.service.impl.TweetsServiceImplTest [main] Started TweetsServiceImplTest in 1.814 seconds (JVM running for 13.953)
+2021-04-27 09:04:54,137 INFO com.tweetapp.TweetAppApplicationTests [main] Starting TweetAppApplicationTests using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 3088 (started by User in C:\Users\User\Downloads\TweetApp\TweetApp)
+2021-04-27 09:04:54,148 INFO com.tweetapp.TweetAppApplicationTests [main] The following profiles are active: nonprod
+2021-04-27 09:05:46,868 INFO com.tweetapp.controller.TweetsControllerTest [main] Starting TweetsControllerTest using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 1972 (started by User in C:\Users\User\Downloads\TweetApp\TweetApp)
+2021-04-27 09:05:46,873 INFO com.tweetapp.controller.TweetsControllerTest [main] The following profiles are active: nonprod
+2021-04-27 09:05:54,001 INFO com.tweetapp.controller.TweetsControllerTest [main] Started TweetsControllerTest in 8.929 seconds (JVM running for 13.459)
+2021-04-27 09:05:54,656 INFO com.tweetapp.controller.UsersControllerTest [main] Starting UsersControllerTest using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 1972 (started by User in C:\Users\User\Downloads\TweetApp\TweetApp)
+2021-04-27 09:05:54,657 INFO com.tweetapp.controller.UsersControllerTest [main] The following profiles are active: nonprod
+2021-04-27 09:05:56,663 INFO com.tweetapp.controller.UsersControllerTest [main] Started UsersControllerTest in 2.18 seconds (JVM running for 16.121)
+2021-04-27 09:05:56,883 INFO com.tweetapp.service.impl.TweetsServiceImplTest [main] Starting TweetsServiceImplTest using Java 1.8.0_201 on Lab-637510426768568216-1 with PID 1972 (started by User in C:\Users\User\Downloads\TweetApp\TweetApp)
+2021-04-27 09:05:56,883 INFO com.tweetapp.service.impl.TweetsServiceImplTest [main] The following profiles are active: nonprod
+2021-04-27 09:05:58,690 INFO com.tweetapp.service.impl.TweetsServiceImplTest [main] Started TweetsServiceImplTest in 1.903 seconds (JVM running for 18.147)
